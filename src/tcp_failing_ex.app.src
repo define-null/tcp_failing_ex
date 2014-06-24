@@ -1,0 +1,12 @@
+{application, tcp_failing_ex,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { tcp_failing_ex_app, []}},
+  {env, []}
+ ]}.
